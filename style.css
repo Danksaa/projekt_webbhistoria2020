@@ -1,0 +1,32 @@
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgb(38, 17, 71) 40%, rgb(27, 31, 87) 100%); ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background: rgb(79,3,185);
+    background: linear-gradient(90deg, rgba(79,3,185,1) 0%, rgba(128,19,163,1) 42%, rgba(64,0,255,1) 100%); 
+    width: 100%;
+    length: 100%
+}
+
+nav li {
+    font-size: medium;
+    display: inline;
+    padding: 16px;
+    margin: 30px;
+    border-radius: 0px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
