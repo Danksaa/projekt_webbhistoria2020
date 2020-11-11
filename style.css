@@ -1,6 +1,8 @@
 body {
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgb(46, 21, 85) 40%, rgb(30, 35, 107) 100%); ;
+    background: rgb(30,25,175);
+    background: linear-gradient(330deg, rgb(36, 30, 206) 16%, rgba(86,12,182,1) 55%, rgba(148,4,195,1) 100%);
+    min-height: 100vh;
+    margin-right: 50px;
 }
 
 nav ul {
@@ -8,8 +10,6 @@ nav ul {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: rgb(79,3,185);
-    background: linear-gradient(90deg, rgba(79,3,185,1) 0%, rgba(128,19,163,1) 42%, rgba(64,0,255,1) 100%); 
     width: 100%;
 }
 
@@ -24,14 +24,10 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    text-decoration: none;
     padding: 20px;
 }
- body {
-     margin: 0;
- }
 
  .Title {
      text-align: center;
@@ -41,17 +37,58 @@ nav a {
  }
 
  h2{
-     color: rgb(1, 151, 197);
+     color: rgb(255, 255, 255);
  }
 
  .text h2{
      text-align: left;
-     color: rgb(18, 151, 168);
+     color: rgb(255, 255, 255);
      font-size: large;
  }
 
  .text h3{
     text-align: left;
-    color: rgb(18, 118, 131);
+    color: rgb(255, 255, 255);
     font-size:medium;
+}
+
+.history{
+    text-align: center;
+}
+
+.s{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.s1{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.s2{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.s3{
+    text-align: center;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+.s4{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.s5{
+    text-align: center;
+    color: white;
+    font-size: large;
 }
