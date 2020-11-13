@@ -1,6 +1,6 @@
 body {
     background: rgb(30,25,175);
-    background: linear-gradient(330deg, rgb(36, 30, 206) 16%, rgba(86,12,182,1) 55%, rgba(148,4,195,1) 100%);
+    background: linear-gradient(330deg, rgb(58, 52, 240) 16%, rgba(86,12,182,1) 55%, rgba(148,4,195,1) 100%);
     min-height: 100vh;
     margin-right: 50px;
 }
@@ -27,6 +27,12 @@ nav a {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
+}
+
+.links{
+    color:white;
+    text-decoration: underline;
+    
 }
 
  .Title {
@@ -85,6 +91,11 @@ nav a {
     text-decoration: none;
 }
 
+.s3 a{
+    text-decoration: underline;
+    color: white;
+}
+
 .s4{
     text-align: center;
     color: white;
@@ -95,4 +106,17 @@ nav a {
     text-align: center;
     color: white;
     font-size: large;
+}
+
+.title2{
+    text-align:center;
+}
+
+.pic6{
+    text-align: center;
+}
+
+.text2020{
+    color:white;
+    text-align: center;
 }
