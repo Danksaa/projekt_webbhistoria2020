@@ -25,6 +25,71 @@
         </li>
       </ul>
     </nav>
+
+    <div class=title4><h1>Webbpubliceringssystem</h1></div>
+
+    <div class=dot><p><h3>Magnolia och <a href="dotCMS.html">DotCMS (another page)</a></h3></p></div>
+
+    <div class=Magnolia>
+      Magnolia is an open-source <a href="https://en.wikipedia.org/wiki/Content_management_system">content management system (CMS).</a> It is developed by Magnolia International Ltd., based in <a href="https://en.wikipedia.org/wiki/Basel">Basel</a>, <a href="https://en.wikipedia.org/wiki/Switzerland">Switzerland.</a> It is based on <a href="https://en.wikipedia.org/wiki/DotCMS">Content repository API for Java (JSR-283).</a>
+
+      <p><img src="7.png" alt="7" width="300" height="100"></p>
+      <hr>
+      <p><h4>Written by - Boris Kraft & Pascal Mangold</h4></p>
+      <p><h4>Developer(s) - Magnolia International Ltd</h4></p>
+      <p><h4>Initial Release - 15 November 2003 </h4></p>
+      <p><h4>Stable Release - 6.2.2 - 15 July 2020</h4></p>
+      <p><h4>Repository - <a hret="https://git.magnolia-cms.com/projects/platform/repos/main.pub/browse">git.magnolia-cms.com/projects/platform/repos/main.pub/browse</a></h4></p>
+      <p><h4>Written In - <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></h4></p>
+      <p><h4>Operating System - <a href="https://en.wikipedia.org/wiki/Cross-platform_software">Cross-platform</a></h4></p>
+      <p><h4>License - Community, Edition: <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3">GPLv3</a>, DX Core: <a href="https://en.wikipedia.org/wiki/End-user_license_agreement">EULA</a></h4></p>
+      <p><h4>Type -  <a href="https://en.wikipedia.org/wiki/Content_management_system">Content management system (CMS)</a></h4></p>
+      <p><h4>Website - <a href="https://www.magnolia-cms.com/">www.magnolia-cms.com</a></h4></p>
+      <hr>
+      <p><h4>Major Releases</h4></p>
+      <p>Version 6.2 - 2020-03-27 - Visual SPA Editor; Multisource content through declarative REST; Integrated User Experience; DAM Connector Pack; Marketing Automation Connector Pack.</p>
+      <p>Version 6.1 - 2019-06-26	- Product repackaging: DX Core and Community Edition; Connector Packs, Live Copy, many Find Bar and UI improvements.</p>
+      <p>Version 6.0 - 2018-11-30	- Find Bar with AI-based search result ranking, image recognition and tagging, content models via content types, new UI framework, overhauled user interface.</p>
+      <p>Version 5.7 - 2018-06-25	- <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> readiness, <a href="https://en.wikipedia.org/wiki/Apache_Solr">Apache Solr</a> for asset indexing, field name aliases, runtime compatibility with Java 9 and Java 10, Java specification baseline at Java EE 8.</p>
+      <p>Version 5.6 - 2017-11-15	- Content tags, new REST API delivery endpoint, software <a href="https://en.wikipedia.org/wiki/Software_bill_of_materials">BOM</a> for 3rd-party dependencies, <a href="https://en.wikipedia.org/wiki/OAuth">OAuth 2.0</a>, Vaadin 8, Log4j 2.</p>
+      <p>Version 5.5 - 2016-11-15	- Definitions app, navigation functions, Magnolia CLI, themes in YAML, many UX improvements; CORE 5.5 uses H2 as the default db.</p>
+      <p>Version 5.4 - 2015-07-03	- Magnolia Templating Essentials, light development, configuration by YAML files, unified resource loading.</p>
+      <p>Version 5.3 - 2014-06-24	- Personalization (p13n), workflow tasks, improved DAM API, content connector, marketing tags manager app.</p>
+      <p>Version 5.2 - 2013-11-22	- REST module, more apps using new Vaadin UI, improved migration process.</p>
+      <p>Version 5.1 - 2013-10-09	- Internationalization (i18n), bulk actions, publishing workflow, customizable apps.</p>
+      <p>Version 5.0 - 2013-06-20	- New UI based on <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a> and <a href="https://en.wikipedia.org/wiki/Vaadin">Vaadin</a>. Framework for creating task-oriented apps.</p>
+      <p>Version 4.5.1 - 2012-03-13	- New templating API, multichannel publishing, JCR 2.0 </p>
+      <p>Version 4.1 - 2009-06-12	- Digital asset management, image generation, commenting.</p>
+      <p>Version 4.0.1 - 2009-03-06	- Standard templating kit.</p>
+      <p>Version 3.0 - 2006-11-15	- Enterprise edition with features such as LDAP authentication.</p>
+      <p>Version 2.0 - 2004-11-15	- Usability improvements.</p>
+      <p>Version 1.0 - 2003-11-15	- Initial release.</p>
+      <hr>
+      <p><b>Architecture</b></p>
+      <p>Magnolia CMS is a Java-based content management system that uses a JCR repository to store, retrieve and search data. In this respect Magnolia is similar to Adobe Experience Manager, Hippo CMS and Jahia which also use JCR. Magnolia uses Apache Jackrabbit, the JCR reference implementation by default. It is possible to use another JSR-170 certified repository implementation such as Modeshape.</p>
+
+      <p><b>Persistent storage</b></p>
+      <p>In Magnolia, Jackrabbit persists data to the H2 database by default. A light-weight embedded H2 database contains the Magnolia software, configuration, and two demonstration websites in a single download for trying out the system. For production environments other databases such as MySQL, MariaDB, PostgreSQL or Oracle can be used.</p>
+
+      <p><b>Modules</b></p>
+      <p>Magnolia CMS has a modular architecture. The system core and features such as the page editor, digital asset management and cache are packaged into separate modules. The module mechanism is also used to package and deploy websites built with Magnolia CMS. The templates, themes and functionality used on a website are split into separate modules.
+
+        Modularity allows site administrators to install and uninstall functionality according to a project's requirements. Encapsulating functionality into discrete modules also promotes separation of concerns: one team can work on website templates while another team develops apps, for example.
+        
+        At the file system level a Magnolia module is a JAR, a Java file format used to package Java class files and resources (images, CSS, JavaScript) into one file. Deploying a Magnolia module involves copying the JAR file into the Java application server and restarting the Magnolia instance. Magnolia CMS recognizes the JAR file during the startup process and installs the module.
+        
+        Magnolia International Ltd. provides commonly used feature modules such as Commenting and Personalization. The user community has developed further modules for specific tasks such as for checking broken links.</p>
+
+      <p><b>Users</b></p>
+      <p>Magnolia clients come primarily from financial services, government and media. The system is best suited for organizations that have complex integration requirements and sufficient IT resources to customize the product to their needs. Significant Java expertise is needed to take advantage of Magnolia's open-source architecture and to integrate the CMS with existing systems. The company has indicated that a file-system based development approach makes the product less demanding of Java skills.</p>
+
+      <p><b>Conference</b></p>
+      <p>Magnolia Conference is an annual event for CMS developers and digital marketing users. The conference is a place to meet other users, share best practices, and learn about product updates. A technical presentation track targets software developers, focusing on integrations and CMS implementation cases. In 2015, Magnolia added a digital business presentation track where talks focus on content challenges that businesses are facing and how they are using the product build their brands on the Web.
+
+        The conference also includes a community unconference where attendees themselves are responsible for proposing, voting for and presenting talks which everyone is free to choose to attend.</p>
+    </div>
+    <hr>
+
   </body>
   <script src="js/script.js"></script>
 </html>

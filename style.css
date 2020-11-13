@@ -1,6 +1,6 @@
 body {
     background: rgb(30,25,175);
-    background: linear-gradient(330deg, rgb(58, 52, 240) 16%, rgba(86,12,182,1) 55%, rgba(148,4,195,1) 100%);
+    background: linear-gradient(330deg, rgb(79, 74, 231) 16%, rgb(94, 11, 202) 55%, rgba(166, 9, 218, 0.89) 100%);
     min-height: 100vh;
     margin-right: 50px;
 }
@@ -33,6 +33,15 @@ nav a {
     color:white;
     text-decoration: underline;
     
+}
+
+.starttitle{
+    text-align: center;
+}
+
+.desc ,a{
+    color: white;
+    font-size: large;
 }
 
  .Title {
@@ -118,5 +127,47 @@ nav a {
 
 .text2020{
     color:white;
+    text-align: center;
+    font-size: large;
+}
+
+.title3{
+    text-align: center;
+}
+
+.textg{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.textg a {
+    color: white;
+  }
+
+.title4{
+    text-align: center;
+}
+
+.Magnolia{
+    color:white;
+    font-size: large;
+}
+
+.Magnolia a{
+    color:white;
+}
+
+.dot ,a{
+    color: white;
+    font-size: large;
+}
+
+.textdot ,a{
+    color: white;
+    font-size: large
+}
+
+.pic{
     text-align: center;
 }
