@@ -1,2 +1,13 @@
 Här kan ni dokumentera tester:
 
+Att testa nav bar och länkar:
+Alla nav bar är länkat till rätt html filer och alla länk är rätt.
+
+Att testa på olika browsers, resolution och zoom:
+Jag har testat på Microsoft Edge, Firefox och Google Chrome.
+Alla 3 ser verkar bra ut.
+Jag testade webbsidan med att zooma in till 200% på 1920 x 1200 resolution och allting ser bra ut förutom nav bar för att alla länk på nav bar blir ihop när man zooma in.
+Jag testde hur webbsidan skulle ser ut med olika skärm resolution:
+1920x1200 - Det är min default och det fungerade bra.
+1366x768 - Det fungerade bra, webbsidan blev större och man behöver inte scrolla så mycket som min default resolution.
+
