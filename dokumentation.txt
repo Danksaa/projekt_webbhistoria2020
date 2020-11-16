@@ -9,5 +9,7 @@ Alla 3 ser verkar bra ut.
 Jag testade webbsidan med att zooma in till 200% på 1920 x 1200 resolution och allting ser bra ut förutom nav bar för att alla länk på nav bar blir ihop när man zooma in.
 Jag testde hur webbsidan skulle ser ut med olika skärm resolution:
 1920x1200 - Det är min default och det fungerade bra.
+1920x1080 - Webbsidan och texter blev mindre och blir lite svårare att läsa eftersom min resolution hade större text.
 1366x768 - Det fungerade bra, webbsidan blev större och man behöver inte scrolla så mycket som min default resolution.
+1280x1024 - Det gör att min skärm blir smålare och det är nästan samma som 1366x768, man behöver inte scrolla så mycket som 1920x1200 för att webbsidan blev större.
 
